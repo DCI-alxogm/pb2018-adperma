@@ -9,7 +9,8 @@ int main()
 	printf("ESte es el primer programa del curso");
 	printf("Introduce tu edad aquí: \n");
 	scanf("%i",&edad);
-	priintf("\nTu edad es: %i+10 \n");
+	edad=+10;
+	printf("\nTu edad es: %i \n", edad);
 	return 0;
 	
 }
