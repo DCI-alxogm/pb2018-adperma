@@ -380,8 +380,7 @@ int main()
 	
 	resultados=fopen("resultados.txt","w");
 	
-	fprintf(resultados,"X		Y		Z		Vx		Vy		Vz\n");
-	
+
 	for(i=0;i<n;i++){
 		fprintf(resultados,"%lf, 	%lf, 	%lf, 	%lf, 	%lf, 	%lf\n", X[i], Y[i], Z[i], Vxi[i], Vyi[i], Vzi[i]);
 	}
